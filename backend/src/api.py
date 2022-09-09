@@ -30,6 +30,12 @@ CORS(app)
 '''
 
 
+@app.route('/drinks')
+def home():
+    print("working!")
+    return "home"
+
+
 '''
 @TODO implement endpoint
     GET /drinks-detail
